@@ -96,8 +96,25 @@
     margin: auto auto auto 0;
 }
 .article-content{
-    text-indent: 16px;
+    text-indent: 25px;
+    font-size: 20px;
 }
 .article-image{
     width: 160px;
+}
+/*FOOTER*/
+.footer-container{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.footer-colunm-right,.footer-colunm-center,.footer-colunm-left{
+    display: grid;
+    grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.footer-colunm-left img{
+    width: 30px;
+    height: 30px;
 }
